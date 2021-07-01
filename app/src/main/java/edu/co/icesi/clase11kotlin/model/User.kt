@@ -3,8 +3,8 @@ package co.domi.clase10.model
 import java.io.Serializable
 
 data class User(
-    val id: String,
-    val username: String
+    var id: String,
+    var username: String
 ) : Serializable {
 
     constructor() : this("NO_ID","NO_USERNAME")
